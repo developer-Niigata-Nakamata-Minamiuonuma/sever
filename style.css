@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: black;
+  color: #00ff00;
+  font-family: Consolas, monospace;
+}
+
+#terminal {
+  padding: 10px;
+}
+
+#output {
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+}
+
+.input-line {
+  display: flex;
+}
+
+#prompt {
+  margin-right: 5px;
+}
+
+input {
+  background: black;
+  color: #00ff00;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-family: inherit;
+}
